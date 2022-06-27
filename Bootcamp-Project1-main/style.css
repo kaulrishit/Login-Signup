@@ -1,0 +1,241 @@
+* {
+  margin-left: 0px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  overflow: hidden;
+  background: url('bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.nav-bar {
+  background: black;
+}
+
+.navbar-brand img {
+  width: 100px;
+}
+
+.nav-link {
+  color: white;
+}
+
+body a {
+  text-decoration: none;
+}
+
+.box-form {
+  margin: 10vh auto;
+  width: 45vw;
+  background: #fbceb5;
+  opacity: 0.87;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  color: black;
+
+}
+
+.box-form div {
+  height: auto;
+}
+
+.box-form .right {
+  padding-left: 4vw;
+  overflow: hidden;
+  width: 50vw;
+  padding-right: 4vw;
+  padding-top: 3vh;
+}
+
+.box-form .right h2 {
+  font-size: 3vmax;
+  line-height: 0;
+  text-align: center;
+  padding-top: 3vh;
+}
+
+.box-form .right p {
+  font-size: 3vh;
+  color: black;
+  text-align: center;
+}
+
+.text-checkbox {
+  font-size: 2vh;
+}
+
+.remember-me--forget-password a {
+  font-size: 2vh;
+}
+
+.box-form .right .inputs {
+  background-color: transparent;
+  border-bottom: 2px solid black;
+  color: black;
+  height: 64px;
+}
+
+.box-form .right .inputs1 {
+  overflow: hidden;
+  background-color: transparent;
+  border-bottom: 2px solid black;
+  color: black;
+  height: 64px;
+}
+
+input[type=text] {
+  color: black;
+}
+
+input[type=password] {
+  color: black;
+}
+
+.box-form .right input {
+  width: 100%;
+  overflow: hidden;
+  padding: 10px;
+  margin-top: 25px;
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.box-form .right .remember-me--forget-password {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.box-form .right .remember-me--forget-password input {
+  margin: 0;
+  margin-right: 7px;
+  width: auto;
+}
+
+label {
+  display: block;
+  position: relative;
+  margin-left: 30px;
+}
+
+label span.text-checkbox {
+  display: inline-block;
+  height: auto;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.9s linear;
+}
+
+label input[type="checkbox"] {
+  display: none;
+}
+
+.box-form .right button {
+  font-size: 16px;
+  padding: 12px 35px;
+  border-radius: 50px;
+  display: inline-block;
+  border: 0;
+  outline: 0;
+  box-shadow: 0px 4px 20px 0px #050608a6;
+  background-color: #FF5733 !important;
+}
+
+.sidebar {
+  display: inline;
+  position: absolute;
+  height: 100vh;
+  width: 5vw;
+  min-width: 55px;
+  background-color: black;
+  transition: width 0.5s ease-in-out;
+  left: 0;
+
+}
+
+.sidebar:hover {
+  width: 10vw;
+}
+
+.container {
+  display: flex;
+
+}
+
+.btn1 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+.btn1 a {
+  text-decoration: none;
+  color: black;
+}
+
+input[type="checkbox"] {
+  display: inline !important;
+
+}
+
+
+
+@media only screen and (max-width: 700px) {
+  .container-fluid {
+    flex-direction: column;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+  }
+}
+
+::placeholder {
+  color: black;
+  opacity: 2;
+  font-weight: 500;
+}
+
+.pro1 {
+  list-style: none;
+  margin-block: 0;
+  padding: 0;
+}
+
+.hide {
+  display: none;
+}
+
+.sidebar:hover .hide {
+  display: block;
+  color: #FF5733;
+  font-size: large;
+}
+
+svg:hover::after {
+  content: 'profile';
+}
+
+.pro {
+  padding: 10px;
+}
+
+.container-fluid a {
+  color: white;
+}
+
+.container-fluid a:hover {
+  color: #FF5733;
+}
+
+.hide a {
+  text-decoration: none;
+  color: #FF5733;
+}

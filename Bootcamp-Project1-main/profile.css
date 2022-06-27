@@ -1,0 +1,171 @@
+* {
+    margin-left: 0px;
+    overflow-y: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: blue orange;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #fbceb5;
+    border: 1px solid black;
+    border-radius: 15px;
+
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.nav-bar {
+    background: black;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.sidebar {
+    display: inline;
+    position: absolute;
+    height: 100vh;
+    width: 5vw;
+    min-width: 55px;
+    background-color: black;
+    transition: width 0.5s ease-in-out;
+    left: 0;
+
+}
+
+.sidebar:hover {
+    width: 10vw;
+}
+
+.sidebar:hover .hide {
+    display: block;
+}
+
+svg:hover::after {
+    content: 'profile';
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main-div {
+    display: flex;
+    height: 100%;
+}
+
+.table-container {
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+@media only screen and (max-width: 700px) {
+    .container-fluid {
+        flex-direction: column;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+    }
+}
+
+.pro1 {
+    list-style: none;
+    margin-block: 0;
+    padding: 0;
+}
+
+.hide {
+    display: none;
+}
+
+.sidebar:hover .hide {
+    display: block;
+    color: orange;
+    font-size: large;
+}
+
+svg:hover::after {
+    content: 'profile';
+}
+
+.pro {
+    padding: 10px;
+}
+
+.container-fluid a {
+    color: white;
+}
+
+.container-fluid a:hover {
+    color: #FF5733;
+}
+
+.tabl {
+    border-radius: 20px;
+    padding: 15px;
+    border: 2px solid black;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+td {
+    padding: 7px;
+    border: 5px solid black;
+}
+
+th {
+    font-weight: bold;
+    font-size: large;
+    border: 5px solid black;
+}
+
+.tabl {
+
+    border: 10px solid black;
+}
+
+tr {
+    border: 2px solid black;
+}
+
+.data {
+    border: 10px solid black;
+}
+
+.data ul {
+    margin-block: none;
+    height: 75px;
+    overflow: scroll;
+}
+
+.hide a {
+    text-decoration: none;
+    color: #FF5733;
+}
+
+.tabl1 th {
+    border: 10px solid black;
+}
